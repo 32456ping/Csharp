@@ -1,0 +1,13 @@
+D:\Csraph\AddresList\AddresList\bin\Debug\AddresList.exe.config
+D:\Csraph\AddresList\AddresList\bin\Debug\AddresList.exe
+D:\Csraph\AddresList\AddresList\bin\Debug\AddresList.pdb
+D:\Csraph\AddresList\AddresList\obj\Debug\AddresList.csproj.AssemblyReference.cache
+D:\Csraph\AddresList\AddresList\obj\Debug\AddresList.LoginForm.resources
+D:\Csraph\AddresList\AddresList\obj\Debug\AddresList.Properties.Resources.resources
+D:\Csraph\AddresList\AddresList\obj\Debug\AddresList.csproj.GenerateResource.cache
+D:\Csraph\AddresList\AddresList\obj\Debug\AddresList.csproj.CoreCompileInputs.cache
+D:\Csraph\AddresList\AddresList\obj\Debug\AddresList.exe
+D:\Csraph\AddresList\AddresList\obj\Debug\AddresList.pdb
+D:\Csraph\AddresList\AddresList\obj\Debug\AddresList.exe.config
+D:\Csraph\AddresList\AddresList\obj\Debug\AddresList.LinkForm.resources
+D:\Csraph\AddresList\AddresList\obj\Debug\AddresList.LinkmanAddForm.resources
