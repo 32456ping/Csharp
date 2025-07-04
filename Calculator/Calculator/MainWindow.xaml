@@ -1,0 +1,42 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="625" Width="520" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#63E4FEFF"/>
+                <GradientStop Color="#FF96FBFF" Offset="1"/>
+                <GradientStop Color="#FFDFFEFF" Offset="0.498"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="OutPutText" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" BorderBrush="{x:Null}" Margin="10,0,10,0"/>
+        <TextBox x:Name="CalculateText" TextWrapping="Wrap" VerticalAlignment="Top" Height="104" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom" BorderBrush="{x:Null}" Margin="10,30,10,0" FontSize="50"/>
+        <Button x:Name="Del" Content="X" HorizontalAlignment="Left" Margin="380,139,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="20" Click="Del_Click"/>
+        <Button x:Name="Div" Content="÷" HorizontalAlignment="Left" Margin="380,214,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="30" Click="Div_Click"/>
+        <Button x:Name="Mul" Content="*" HorizontalAlignment="Left" Margin="380,289,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="Mul_Click"/>
+        <Button x:Name="Sub" Content="-" HorizontalAlignment="Left" Margin="380,364,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="Sub_Click"/>
+        <Button x:Name="Add" Content="+" HorizontalAlignment="Left" Margin="380,439,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="Add_Click"/>
+        <Button x:Name="Equal" Content="=" HorizontalAlignment="Left" Margin="380,514,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="Equal_Click"/>
+        <Button x:Name="Dot" Content="." HorizontalAlignment="Left" Margin="255,514,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="Dot_Click"/>
+        <Button x:Name="none" Content="" HorizontalAlignment="Left" Margin="5,514,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40"/>
+        <Button x:Name="Clear" Content="C" HorizontalAlignment="Left" Margin="255,139,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="20" Click="Clear_Click"/>
+
+
+        <Button x:Name="Zero" Content="0" HorizontalAlignment="Left" Margin="130,515,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="Zero_Click"/>
+        <Button x:Name="One" Content="1" HorizontalAlignment="Left" Margin="5,439,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="One_Click"/>
+        <Button x:Name="Two" Content="2" HorizontalAlignment="Left" Margin="130,439,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="Two_Click"/>
+        <Button x:Name="Three" Content="3" HorizontalAlignment="Left" Margin="255,439,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="Three_Click"/>
+        <Button x:Name="Four" Content="4" HorizontalAlignment="Left" Margin="5,364,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="Four_Click"/>
+        <Button x:Name="Five" Content="5" HorizontalAlignment="Left" Margin="130,364,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="Five_Click"/>
+        <Button x:Name="Six" Content="6" HorizontalAlignment="Left" Margin="255,364,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="Six_Click"/>
+        <Button x:Name="Seven" Content="7" HorizontalAlignment="Left" Margin="5,289,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="Seven_Click"/>
+        <Button x:Name="Eight" Content="8" HorizontalAlignment="Left" Margin="130,289,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="Eight_Click"/>
+        <Button x:Name="Nine" Content="9" HorizontalAlignment="Left" Margin="255,289,0,0" VerticalAlignment="Top" Height="70" Width="120" Background="#FFA9ECFF" FontSize="40" Click="Nine_Click"/>
+
+    </Grid>
+</Window>
